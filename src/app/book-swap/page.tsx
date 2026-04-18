@@ -69,7 +69,7 @@ export default function BookSwap() {
               </p>
             </div>
             <a
-              href={`https://wa.me/919876543210?text=Hi%20SwapX!%20I%20just%20booked%20a%20swap.%20Phone:%20${form.phone}`}
+              href={`https://wa.me/916370736410?text=Hi%20SwapX!%20I%20just%20booked%20a%20swap.%20Phone:%20${form.phone}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -121,7 +121,7 @@ export default function BookSwap() {
                     type="tel"
                     id="phone"
                     className="form-input"
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 6370736410"
                     value={form.phone}
                     onChange={(e) => setForm({ ...form, phone: e.target.value })}
                     required

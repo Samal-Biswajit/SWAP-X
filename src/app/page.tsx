@@ -284,7 +284,7 @@ export default function Home() {
                     <HiOutlineArrowRight className="text-xl" />
                   </Link>
                   <a
-                    href="https://wa.me/919876543210?text=Hi%20SwapX!%20I%20want%20to%20know%20more%20about%20your%20plans."
+                    href="https://wa.me/916370736410?text=Hi%20SwapX!%20I%20want%20to%20know%20more%20about%20your%20plans."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-secondary text-lg !py-5 !px-10"

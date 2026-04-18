@@ -48,7 +48,7 @@ export default function Contact() {
                   Just message us — we reply fast.
                 </p>
                 <a
-                  href="https://wa.me/919876543210?text=Hi%20SwapX!%20I%20need%20some%20help."
+                  href="https://wa.me/916370736410?text=Hi%20SwapX!%20I%20need%20some%20help."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary text-lg !py-5 !px-10 !bg-[#25D366] hover:!bg-[#20bd5a]"
@@ -86,7 +86,7 @@ export default function Contact() {
                   </div>
                   <h3 className="font-bold mb-2">Phone</h3>
                   <p className="text-sm text-secondary">
-                    +91 98765 43210
+                    +91 6370736410
                     <br />
                     Call or WhatsApp
                   </p>

@@ -68,7 +68,7 @@ export default function Signup() {
               Our team will reach out to you on WhatsApp to get you started. You can also message us directly:
             </p>
             <a
-              href={`https://wa.me/919876543210?text=Hi%20SwapX!%20I%20just%20signed%20up.%20My%20name%20is%20${encodeURIComponent(form.name)}.%20Phone:%20${form.phone}`}
+              href={`https://wa.me/916370736410?text=Hi%20SwapX!%20I%20just%20signed%20up.%20My%20name%20is%20${encodeURIComponent(form.name)}.%20Phone:%20${form.phone}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-lg !py-5 !px-10"
@@ -141,7 +141,7 @@ export default function Signup() {
                       type="tel"
                       id="signup-phone"
                       className="form-input"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 6370736410"
                       value={form.phone}
                       onChange={(e) => setForm({ ...form, phone: e.target.value })}
                       required
@@ -285,7 +285,7 @@ export default function Signup() {
                     Chat with us on WhatsApp. We&apos;ll guide you through everything.
                   </p>
                   <a
-                    href="https://wa.me/919876543210?text=Hi%20SwapX!%20I%20need%20help%20signing%20up."
+                    href="https://wa.me/916370736410?text=Hi%20SwapX!%20I%20need%20help%20signing%20up."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-secondary w-full text-center text-sm"

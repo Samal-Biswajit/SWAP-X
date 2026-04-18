@@ -243,7 +243,7 @@ export default function Pricing() {
               Chat with us on WhatsApp for instant support.
             </p>
             <a
-              href="https://wa.me/919876543210?text=Hi%20SwapX!%20I%20want%20to%20know%20about%20pricing."
+              href="https://wa.me/916370736410?text=Hi%20SwapX!%20I%20want%20to%20know%20about%20pricing."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-flex"

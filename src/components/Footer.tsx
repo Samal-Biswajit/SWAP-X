@@ -22,7 +22,7 @@ export default function Footer() {
               No downtime. No waiting. Just swap and go.
             </p>
             <a
-              href="https://wa.me/919876543210?text=Hi%20SwapX!%20I'm%20interested%20in%20learning%20more."
+              href="https://wa.me/916370736410?text=Hi%20SwapX!%20I'm%20interested%20in%20learning%20more."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-semibold text-[#25D366] hover:underline"
@@ -69,7 +69,7 @@ export default function Footer() {
                 <span className="text-accent font-semibold">Hours:</span> 6 AM – 10 PM Daily
               </li>
               <li className="text-sm text-secondary">
-                <span className="text-accent font-semibold">Support:</span> +91 98765 43210
+                <span className="text-accent font-semibold">Support:</span> +91 6370736410
               </li>
             </ul>
           </div>
