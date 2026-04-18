@@ -15,9 +15,9 @@ export default function BatteryAnimation() {
       let current = 15;
       const fillInterval = setInterval(() => {
         current += 2;
-        if (current >= 95) {
+        if (current >= 100) {
           clearInterval(fillInterval);
-          setFillPercent(95);
+          setFillPercent(100);
           setTimeout(() => setIsSwapping(false), 500);
         } else {
           setFillPercent(current);

@@ -444,6 +444,8 @@ body {
   line-height: 1.6;
   max-width: 600px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Responsive mobile adjustments */
