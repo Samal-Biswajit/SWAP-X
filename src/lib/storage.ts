@@ -1,7 +1,13 @@
 import fs from "fs/promises";
 import path from "path";
 
-const DATA_DIR = path.join(process.cwd(), "data");
+// Vercel serverless functions have a read-only filesystem except for /tmp.
+// Data stored in /tmp is ephemeral and will not persist across requests.
+// For persistent storage in production, a database like Supabase should be used.
+const isVercel = process.env.VERCEL === "1";
+const DATA_DIR = isVercel 
+  ? path.join("/tmp", "data") 
+  : path.join(process.cwd(), "data");
 
 async function ensureDataDir() {
   try {
